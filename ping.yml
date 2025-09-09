@@ -1,0 +1,4 @@
+- hosts: [target_hosts]
+  tasks:
+    - name: [task_description]
+      ping:

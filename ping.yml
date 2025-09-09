@@ -1,4 +1,6 @@
-- hosts: [target_hosts]
+---
+- hosts: local
+  gather_facts: no
   tasks:
-    - name: [task_description]
+    - name: Ping the local host
       ping:

@@ -2,5 +2,5 @@
 - hosts: local
   gather_facts: no
   tasks:
-    - name: Ping the local host
+   
       ping:

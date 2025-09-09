@@ -1,5 +1,5 @@
 ---
-- hosts: local
+- hosts: TestSW1
   gather_facts: no
   tasks:
     - name: Ping the local host
